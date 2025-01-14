@@ -26,6 +26,9 @@ func main() {
 }
 
 ```
+```bash
+clang -g -o rcraps_reverse_c rcraps_reverse_c.c
+```
 ```c
 #include <stdio.h>
 
