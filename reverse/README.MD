@@ -79,6 +79,22 @@ fn main() {
 }
 
 ```
+```kotlin
+fun main() {
+    val arr = mutableListOf(1, 2, 3, 4, 5, 6, 7, 8, 9)
+    var i = 0
+    var j = arr.size - 1
+    while (i < j) {
+        val temp = arr[i]
+        arr[i] = arr[j]
+        arr[j] = temp
+        i++
+        j--
+    }
+    println(arr)
+}
+
+```
 ```assembly
 section .data
     arr db 1, 2, 3, 4, 5, 6, 7, 8, 9
