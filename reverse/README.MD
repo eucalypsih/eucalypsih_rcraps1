@@ -111,6 +111,25 @@ public class Main {
 }
 
 ```
+```php
+<?php
+
+$arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+$i = 0;
+$j = count($arr) - 1;
+
+while ($i < $j) {
+    $temp = $arr[$i];
+    $arr[$i] = $arr[$j];
+    $arr[$j] = $temp;
+    $i++;
+    $j--;
+}
+
+print_r($arr);
+?>
+
+```
 ```assembly
 section .data
     arr db 1, 2, 3, 4, 5, 6, 7, 8, 9
