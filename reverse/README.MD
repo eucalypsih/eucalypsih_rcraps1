@@ -1,3 +1,15 @@
+known_hosts
+```text
+github.com,140.82.121.3 ecdsa-sha2-nistp256 AAAAE2VjZ
+HNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQE
+ezOmxkZMy7opKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6
+v0mKV0U2w0WZ2YB/++Tpockg=
+140.82.121.4 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTIt
+bmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQEezOmxkZMy7o
+pKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6v0mKV0U2w0W
+Z2YB/++Tpockg=
+```
+id_rsa.pub
 ```text
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDBz8tU7e7ztS2Tc
 O32OdjlVipq3U1yeaHy3Kx4eWDi6HKqzRXqjRXyekdcUMH8CVmqJY
