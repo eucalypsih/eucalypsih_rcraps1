@@ -65,6 +65,20 @@ int main() {
 }
 
 ```
+```rust
+fn main() {
+    let mut arr = vec![1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let mut i = 0;
+    let mut j = arr.len() - 1;
+    while i < j {
+        arr.swap(i, j);
+        i += 1;
+        j -= 1;
+    }
+    println!("{:?}", arr);
+}
+
+```
 ```assembly
 section .data
     arr db 1, 2, 3, 4, 5, 6, 7, 8, 9
