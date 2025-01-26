@@ -78,7 +78,7 @@ int main() {
     auto b = [](uint32_t a, uint32_t b) -> uint32_t {
         return a + b;
     };
-    std::cout << b(6u, 3u) << std::endl; // 4294967295 (2^32 - 1)
+    std::cout << b(4294967294u, 1u) << std::endl; // 4294967295 (2^32 - 1)
     return 0;
 }
 
@@ -96,7 +96,7 @@ uint32_t add(uint32_t a, uint32_t b) {
 
 int main() {
     UIntFunction b = add;
-    printf("%u\n", b(6U, 3U)); // 4294967295 (2^32 - 1)
+    printf("%u\n", b(4294967294U, 1U)); // 4294967295 (2^32 - 1)
     return 0;
 }
 
