@@ -56,18 +56,6 @@ git push origin main --force
 ```bash
 git add . && git commit -m "up" --amend && git push -u origin main --force-with-lease
 ```
-```bash
-git add . && git commit -m "up" && git push -u origin main
-```
-```bash
-git init && git remote add origin git@github.com:eucalypsih/eucalypsih_rcraps1.git && git config --global user.name "eucalypsih" && git config --global user.email "eucalypsih@gmail.com" && git pull origin main --allow-unrelated-histories && git branch -M main
-```
-```bash
-git add . && git commit -m "initialize" && git branch -M main && git push origin main --force
-```
-```bash
-git add . && git commit -m "up" && git push origin main --force-with-lease
-```
 ```text
 curl https://api.github.com/repos/nodejs/node 2> /dev/null
 ```
