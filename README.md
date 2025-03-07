@@ -56,18 +56,6 @@ git push origin main --force
 ```bash
 git add . && git commit -m "up" --amend && git push -u origin main --force-with-lease
 ```
-```bash
-git add . && git commit -m "up" && git push -u origin main
-```
-```bash
-git init && git remote add origin git@github.com:eucalypsih/eucalypsih_rcraps1.git && git config --global user.name "eucalypsih" && git config --global user.email "eucalypsih@gmail.com" && git pull origin main --allow-unrelated-histories && git branch -M main
-```
-```bash
-git add . && git commit -m "initialize" && git branch -M main && git push origin main --force
-```
-```bash
-git add . && git commit -m "up" && git push origin main --force-with-lease
-```
 ```text
 curl https://api.github.com/repos/nodejs/node 2> /dev/null
 ```
@@ -85,3 +73,17 @@ base64 /dev/urandom
 ```bash
 echo -ne "include \x22/data/data/com.termux/files/usr/share/nano/*nanorc\x22\x0aset nohelp" > $PREFIX/etc/nanorc
 ```
+CTRL + i	tab
+CTRL + s	save
+CTRL + x	exit
+CTRL + w	search
+ALT + w		next
+ALT + q		forward
+CTRL + q	search[forward]
+CTRL+6 CTRL+^ CTRL+a	set mark(select)
+CTRL + 7	ctrl+6 + ctrl+7 go line
+CTRL + k	cut
+CTRL + u	paste
+CTRL + j	justified
+ALT + n		line numbering
+ALT + 
