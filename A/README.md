@@ -5,6 +5,13 @@
 
 ```
 
+# install_n
+> PYTHON<br>
+> print("已取消安装hysteria2") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L67)
+```python
+print("已取消安装hysteria2")
+```
+
 # uninstall
 
 > PYTHON<br>
