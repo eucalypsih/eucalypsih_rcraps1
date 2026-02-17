@@ -5,6 +5,14 @@
 
 ```
 
+# install
+> PYTHON<br>
+> print("1. Install the latest version by default\n2. Install a specified version")
+> print("1. 默认安装最新版本\n2. 安装指定版本") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L45)
+```python
+print("1. 默认安装最新版本\n2. 安装指定版本")
+```
+
 # install_n
 > PYTHON<br>
 > print("已取消安装hysteria2") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L67)
