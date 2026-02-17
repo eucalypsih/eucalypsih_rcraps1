@@ -8,6 +8,7 @@
 # install
 > PYTHON<br>
 > print("1. Install the latest version by default\n2. Install a specified version")
+> print("1. Pasang versi terbaru secara bawaan\n2. Pasang versi tertentu")
 > print("1. 默认安装最新版本\n2. 安装指定版本") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L45)
 ```python
 print("1. 默认安装最新版本\n2. 安装指定版本")
@@ -16,6 +17,7 @@ print("1. 默认安装最新版本\n2. 安装指定版本")
 # install_try
 > PYTHON<br>
 > print("\033[91mInput error, please try again.\033[m")
+> print("\033[91mMasukkan salah, Tolong coba lagi.\033[m")
 > print("\033[91m输入错误，请重新输入\033[m") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L65)
 ```python
 print("\033[91m输入错误，请重新输入\033[m")
@@ -24,6 +26,8 @@ print("\033[91m输入错误，请重新输入\033[m")
 
 # install_n
 > PYTHON<br>
+> print("Hysteria2 installation has been canceled")
+> print("Pemasangan hysteria2 telah dibatalkan")
 > print("已取消安装hysteria2") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L67)
 ```python
 print("已取消安装hysteria2")
