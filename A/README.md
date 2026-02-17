@@ -1,3 +1,10 @@
+# template
+> PYTHON<br>
+> [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L74)
+```python
+
+```
+
 # uninstall
 
 > PYTHON<br>
@@ -5,3 +12,12 @@
 ```python
 input("是否进行卸载hysteria2 [y/n] ：")
 ```
+
+# save_failed
+> PYTHON<br>
+> print(f"\033[91m保存iptables规则失败: {e}\033[m") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L229)
+```python
+print(f"\033[91m保存iptables规则失败: {e}\033[m")
+```
+
+
