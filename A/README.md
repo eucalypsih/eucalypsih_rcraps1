@@ -13,6 +13,15 @@
 print("1. 默认安装最新版本\n2. 安装指定版本")
 ```
 
+# install_try
+> PYTHON<br>
+> print("\033[91mInput error, please try again.\033[m")
+> print("\033[91m输入错误，请重新输入\033[m") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L65)
+```python
+print("\033[91m输入错误，请重新输入\033[m")
+```
+
+
 # install_n
 > PYTHON<br>
 > print("已取消安装hysteria2") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L67)
