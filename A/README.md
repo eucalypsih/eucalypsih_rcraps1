@@ -20,7 +20,7 @@ input("是否进行卸载hysteria2 [y/n] ：")
 print("已取消卸载hysteria2")
 ```
 
-# uninstall_succesfully
+# uninstall_successfully
 > PYTHON<br>
 > print("卸载hysteria2完成") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L115)
 ```python
