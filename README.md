@@ -1,5 +1,5 @@
 ```bash
-rm -rf $PREFIX/etc/apt/sources.list.d && echo -n "deb https://packages-cf.termux.dev/apt/termux-main-21 stable main" > $PREFIX/etc/apt/sources.list && apt remove game-repo science-repo
+rm -rf $PREFIX/etc/apt/sources.list.d && echo -ne "# The main termux repository:\ndeb https://packages-cf.termux.dev/apt/termux-main-21 stable main" > $PREFIX/etc/apt/sources.list && apt remove game-repo science-repo
 ```
 ```bash
 pkg up
