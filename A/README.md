@@ -1,5 +1,7 @@
 # template
 > PYTHON<br>
+>
+> 
 > [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L74)
 ```python
 
@@ -62,4 +64,12 @@ print("卸载hysteria2完成")
 print(f"\033[91m保存iptables规则失败: {e}\033[m")
 ```
 
+# found
+> PYTHON<br>
+> print("\033[91mConfiguration file not found.\033[m")
+> print("\033[91mFile konfigurasi tidak ditemukan.\033[m")
+> print("\033[91m未找到配置文件\033[m") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L251)
+```python
+print("\033[91m未找到配置文件\033[m")
+```
 
