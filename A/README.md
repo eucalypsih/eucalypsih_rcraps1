@@ -107,6 +107,14 @@ input("4. 查看服务状态\n")
 ```
 
 > PYTHON<br>
+> print("0. Back")<br>
+> print("0. Kembali")<br>
+> print("0. 返回\n") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L125)
+```python
+print("0. 返回\n")
+```
+
+> PYTHON<br>
 > input("1. View hy2 configuration\n")<br>
 > input("1. Lihat konfigurasi hy2\n")<br>
 > input("1. hy2配置查看\n") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L240)
