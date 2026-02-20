@@ -75,9 +75,17 @@ print("\033[91m未找到配置文件\033[m")
 
 # view
 > PYTHON<br>
+> input("3. Restart service")
+> input("3. Restart layanan")
+> input("3. 重启服务\n") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L125)
+```python
+input("3. 重启服务\n")
+```
+
+> PYTHON<br>
 > input("4. Check service status\n")
 > input("4. Lihat status layanan\n")
-> input(4. 查看服务状态\n) [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L125)
+> input(4. 查看服务状态\n") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L125)
 ```python
 input("4. 查看服务状态\n")
 ```
