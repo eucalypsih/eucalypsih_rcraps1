@@ -73,3 +73,12 @@ print(f"\033[91m保存iptables规则失败: {e}\033[m")
 print("\033[91m未找到配置文件\033[m")
 ```
 
+# view
+> PYTHON<br>
+> input("1. View hy2 configuration\n")
+> input("1. Lihat konfigurasi hy2\n")
+> input("1. hy2配置查看\n") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L240)
+```python
+input("1. hy2配置查看\n")
+```
+
