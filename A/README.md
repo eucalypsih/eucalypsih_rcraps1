@@ -82,3 +82,12 @@ print("\033[91m未找到配置文件\033[m")
 input("1. hy2配置查看\n")
 ```
 
+# input
+> PYTHON<br>
+> input("Please enter an option: ")
+> input("Silakan masukkan pilihan: ")
+> input("请输入选项: ") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L240)
+```python
+input("请输入选项: ")
+```
+
