@@ -73,13 +73,21 @@ print(f"\033[91m保存iptables规则失败: {e}\033[m")
 print("\033[91m未找到配置文件\033[m")
 ```
 
-# view
+# service
 > PYTHON<br>
-> input("3. Stop service")
-> input("3. Hentikan layanan")
-> input("3. 停止服务\n") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L125)
+> input("1. Start service")
+> input("1. Mulai layanan")
+> input("1. 启动服务(自动设置为开机自启动)\n") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L125)
 ```python
-input("3. 停止服务\n")
+input("1. 启动服务(自动设置为开机自启动)\n")
+```
+
+> PYTHON<br>
+> input("2. Stop service")
+> input("2. Hentikan layanan")
+> input("2. 停止服务\n") [GH](https://github.com/seagullz4/hysteria2/blob/main/hysteria2.py#L125)
+```python
+input("2. 停止服务\n")
 ```
 
 > PYTHON<br>
