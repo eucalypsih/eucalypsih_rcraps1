@@ -99,8 +99,10 @@ echo "plugins/hitokoto/*" >> .git/info/sparse-checkout
 git checkout master
 ```
 
-git checkout -b master
-git checkout master
+git checkout -b master # membuat baru tanpa mendownload
+git checkout master  # sekaligus mendownload
+git switch -c master   # buat + pindah
+git switch master      # pindah saja
 
 ukuran
 ```bash
