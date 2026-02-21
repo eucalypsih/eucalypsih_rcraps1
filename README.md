@@ -99,6 +99,14 @@ echo "plugins/hitokoto/*" >> .git/info/sparse-checkout
 git checkout master
 ```
 
+git checkout -b master
+git checkout master
+
+ukuran
+```bash
+du -sh ohmyzsh
+```
+
 ```bash
 base64 /dev/urandom
 ```
