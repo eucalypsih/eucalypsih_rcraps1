@@ -76,6 +76,13 @@ git remote set-url origin git@github.com:eucalypsih/eucalypsih_rcraps1.git
 ```bash
 git remote remove origin
 ```
+
+> --filter=blob:none tidak download isi file (blob)<br>
+> --no-checkout tidak membuat working directory<br>
+> Hanya metadata commit & tree yang diambil<br>
+```bash
+git clone --filter=blob:none --no-checkout https://github.com/ohmyzsh/ohmyzsh.git
+```
 ```bash
 base64 /dev/urandom
 ```
