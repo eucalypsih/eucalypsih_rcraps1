@@ -68,6 +68,11 @@ rm -rf eucalypsih_rcraps1 && git clone -q git@github.com:eucalypsih/eucalypsih_r
 ```bash
 git clone -q git@github.com:eucalypsih/eucalypsih_rcraps1.git && cd eucalypsih_rcraps1 && git config user.name "eucalypsih" && git config user.email "eucalypsih@gmail.com" && git pull origin main --allow-unrelated-histories
 ```
+
+rename url
+```bash
+git remote set-url origin git@github.com:eucalypsih/eucalypsih_rcraps1.git
+```
 ```bash
 base64 /dev/urandom
 ```
