@@ -81,21 +81,22 @@ partial clone
 > --filter=blob:none tidak download isi file (blob)<br>
 > --no-checkout tidak membuat working directory<br>
 > Hanya metadata commit & tree yang diambil<br>
+`git clone --filter=blob:none --no-checkout https://github.com/ohmyzsh/ohmyzsh.git` # Clone repositori tanpa checkout
 ```bash
-git clone --filter=blob:none --no-checkout https://github.com/ohmyzsh/ohmyzsh.git
+git clone --filter=blob:none --no-checkout https://github.com/ohmyzsh/ohmyzsh.git # Clone repositori tanpa checkout
 ```
 
 git 2.25
 ```bash
 cd ohmyzsh
-git sparse-checkout init --cone
-git sparse-checkout set plugins/hitokoto
+git sparse-checkout init --cone # Inisialisasi sparse-checkout
+git sparse-checkout set plugins/hitokoto   # Tentukan folder atau file tertentu yang ingin Anda checkout
 git checkout
 ```
 
 ```bash
-git config core.sparseCheckout true
-echo "plugins/hitokoto/*" >> .git/info/sparse-checkout
+git config core.sparseCheckout true # Inisialisasi sparse-checkout
+echo "plugins/hitokoto/*" >> .git/info/sparse-checkout   # Tentukan folder atau file tertentu yang ingin Anda checkout
 git checkout master
 ```
 
@@ -103,6 +104,10 @@ git checkout master
 `git checkout master`    # sekaligus mendownload
 `git switch -c master`    # buat + pindah
 `git switch master`        # pindah saja
+
+`git fetch --tags`          # Ambil semua tag
+`git checkout tags/v7.0.0`   # Checkout versi tertentu (misalnya, v7.0.0)
+`git describe --tags`    # Verifikasi Versi
 
 <span>Ukuran</span>
 ```bash
