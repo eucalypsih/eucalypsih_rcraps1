@@ -74,6 +74,9 @@ rename url
 git remote set-url origin git@github.com:eucalypsih/eucalypsih_rcraps1.git
 ```
 ```bash
+git remote remove origin
+```
+```bash
 base64 /dev/urandom
 ```
 ```bash
