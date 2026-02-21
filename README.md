@@ -100,9 +100,9 @@ git checkout master
 ```
 
 `git checkout -b master` # membuat baru tanpa mendownload
-git checkout master  # sekaligus mendownload
-git switch -c master   # buat + pindah
-git switch master      # pindah saja
+`git checkout master`    # sekaligus mendownload
+`git switch -c master`    # buat + pindah
+`git switch master`        # pindah saja
 
 <span>Ukuran</span>
 ```bash
