@@ -77,12 +77,28 @@ git remote set-url origin git@github.com:eucalypsih/eucalypsih_rcraps1.git
 git remote remove origin
 ```
 
+partial clone
 > --filter=blob:none tidak download isi file (blob)<br>
 > --no-checkout tidak membuat working directory<br>
 > Hanya metadata commit & tree yang diambil<br>
 ```bash
 git clone --filter=blob:none --no-checkout https://github.com/ohmyzsh/ohmyzsh.git
 ```
+
+git 2.25
+```bash
+cd ohmyzsh
+git sparse-checkout init --cone
+git sparse-checkout set plugins/hitokoto
+git checkout
+```
+
+```bash
+git config core.sparseCheckout true
+echo "plugins/hitokoto/*" >> .git/info/sparse-checkout
+git checkout master
+```
+
 ```bash
 base64 /dev/urandom
 ```
