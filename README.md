@@ -104,7 +104,7 @@ git checkout master  # sekaligus mendownload
 git switch -c master   # buat + pindah
 git switch master      # pindah saja
 
-<span style="background-color:yellow;padding:3px;border-radius:4px">Ukuran</span>
+<span style="background-color:blue;padding:3px;border-radius:4px">Ukuran</span>
 ```bash
 du -sh ohmyzsh
 ```
