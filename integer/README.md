@@ -1,3 +1,18 @@
+```python
+from decimal import Decimal, getcontext
+
+# Mengatur presisi menjadi 100 digit desimal
+getcontext().prec = 100
+
+# Menggunakan Decimal dengan presisi tinggi
+pi = Decimal(3.141592653589793238462643383279502884197169399375105820974944)
+result = pi ** 2  # Perhitungan dengan angka pi
+
+print(result)
+
+```
+
+
 ```kotlin
 /**
  * play.kotlinlang.org
