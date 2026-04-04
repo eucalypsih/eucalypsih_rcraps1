@@ -45,7 +45,7 @@ rm -rf .git
 git init && git remote add origin git@github.com:eucalypsih/eucalypsih_rcraps1.git && git config --global user.name "eucalypsih" && git config --global user.email "eucalypsih@gmail.com"
 ```
 ```bash
-git checkout -b main
+git checkout -b main # Switched to a new branch 'main'
 ```
 ```bash
 git add .
