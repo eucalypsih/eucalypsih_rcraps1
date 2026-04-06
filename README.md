@@ -54,6 +54,18 @@ git -C $HOME/AndroidCICD add .
 git add .
 ```
 ```bash
+git status
+```
+```bash
+git add .github/workflows/AndroidBuild.yml
+```
+```bash
+git reset
+```
+```bash
+git diff --cached
+```
+```bash
 git commit -m "init"
 ```
 ```bash
