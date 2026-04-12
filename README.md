@@ -1,7 +1,4 @@
 ```bash
-ssh-agent $PREFIX/bin/bash
-```
-```bash
 eval "$(ssh-agent -s)"
 ````
 ```bash
