@@ -1,9 +1,4 @@
-```bash
-eval "$(ssh-agent -s)"
-````
-```bash
-ssh-add $HOME/.ssh/id_rsa
-```
+
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```bash
 ssh -T git@github.com
