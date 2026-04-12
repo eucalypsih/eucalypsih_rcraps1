@@ -1,10 +1,4 @@
 ```bash
-rm -rf $PREFIX/etc/apt/sources.list.d && sleep 2 && echo -ne "# The main termux repository:\ndeb https://packages-cf.termux.dev/apt/termux-main-21 stable main" > $PREFIX/etc/apt/sources.list && sleep 2 && apt remove -y game-repo science-repo
-```
-```bash
-pkg up
-```
-```bash
 termux-reload-settings
 ```
 ```bash
