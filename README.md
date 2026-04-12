@@ -1,7 +1,4 @@
 ```bash
-pkg install openssh -y && ssh-keygen -t rsa -b 4096 -C "eucalypsih@gmail.com"
-```
-```bash
 cat $HOME/.ssh/id_rsa.pub
 ```
 ```bash
