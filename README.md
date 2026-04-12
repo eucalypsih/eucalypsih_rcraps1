@@ -1,7 +1,4 @@
 ```bash
-cat $HOME/.ssh/id_rsa.pub
-```
-```bash
 ssh-agent $PREFIX/bin/bash
 ```
 ```bash
