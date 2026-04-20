@@ -90,6 +90,7 @@ git checkout
 git config core.sparseCheckout true # Inisialisasi sparse-checkout
 echo "plugins/hitokoto/*" >> .git/info/sparse-checkout   # Tentukan folder atau file tertentu yang ingin Anda checkout
 git checkout master
+git fetch origin
 ```
 
 `git checkout -b master` # membuat baru tanpa mendownload
