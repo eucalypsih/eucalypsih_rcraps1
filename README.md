@@ -93,6 +93,11 @@ git checkout master
 git fetch origin
 ```
 
+memindahkan semua isi, lalu menghapus direktori sumber
+```bash
+rsync -av --remove-source-files "$HOME/AppOpenExample/" "$HOME/"
+```
+
 `git checkout -b master` # membuat baru tanpa mendownload
 `git checkout master`    # sekaligus mendownload
 `git switch -c master`    # buat + pindah
