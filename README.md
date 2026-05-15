@@ -13,13 +13,13 @@ rm -rf $PREFIX/etc/bash.bashrc && echo -ne "if [ -x /data/data/com.termux/files/
 pkg install git
 ```
 ```bash
-rm -rf eucalypsih_rcraps1 && mkdir eucalypsih_rcraps1 && cd eucalypsih_rcraps1 && git init && git remote add origin git@github.com:eucalypsih/eucalypsih_rcraps1.git && git config --global user.name "eucalypsih" && git config --global user.email "eucalypsih@gmail.com" && git pull origin main --allow-unrelated-histories && git branch -M main
+rm -rf eucalypsih_rcraps1 && sleep 1.5 && mkdir eucalypsih_rcraps1 && sleep 1.5 && cd eucalypsih_rcraps1 && sleep 1.5 && git init && sleep 1.5 && git remote add origin git@github.com:eucalypsih/eucalypsih_rcraps1.git && sleep 1.5 && git config --global user.name "eucalypsih" && sleep 1.5 && git config --global user.email "eucalypsih@gmail.com" && sleep 1.5 && git pull origin main --allow-unrelated-histories && sleep 1.5 && git branch -M main
 ```
 ```bash
 rm -rf .git
 ```
 ```bash
-git init && git remote add origin git@github.com:eucalypsih/eucalypsih_rcraps1.git && git config --global user.name "eucalypsih" && git config --global user.email "eucalypsih@gmail.com"
+git init && sleep 1.5 && git remote add origin git@github.com:eucalypsih/eucalypsih_rcraps1.git && sleep 1.5 && git config --global user.name "eucalypsih" && sleep 1.5 && git config --global user.email "eucalypsih@gmail.com"
 ```
 ```bash
 git checkout -b main # Switched to a new branch 'main'
@@ -52,16 +52,16 @@ git commit -m "init"
 git push origin main --force
 ```
 ```bash
-git add . && git commit -m "up" --amend && git push -u origin main --force-with-lease
+git add . && sleep 1.5 && git commit -m "up" --amend && sleep 1.5 && git push -u origin main --force-with-lease
 ```
 ```text
 curl https://api.github.com/repos/nodejs/node 2> /dev/null
 ```
 ```bash
-rm -rf eucalypsih_rcraps1 && git clone -q git@github.com:eucalypsih/eucalypsih_rcraps1.git && cd eucalypsih_rcraps1 && git config --global user.name "eucalypsih" && git config --global user.email "eucalypsih@gmail.com" && git branch -M main
+rm -rf eucalypsih_rcraps1 && sleep 1.5 && git clone -q git@github.com:eucalypsih/eucalypsih_rcraps1.git && sleep 1.5 && cd eucalypsih_rcraps1 && sleep 1.5 && git config --global user.name "eucalypsih" && sleep 1.5 && git config --global user.email "eucalypsih@gmail.com" && sleep 1.5 && git branch -M main
 ```
 ```bash
-git clone -q git@github.com:eucalypsih/eucalypsih_rcraps1.git && cd eucalypsih_rcraps1 && git config user.name "eucalypsih" && git config user.email "eucalypsih@gmail.com" && git pull origin main --allow-unrelated-histories
+git clone -q git@github.com:eucalypsih/eucalypsih_rcraps1.git && sleep 1.5 && cd eucalypsih_rcraps1 && sleep 1.5 && git config user.name "eucalypsih" && sleep 1.5 && git config user.email "eucalypsih@gmail.com" && sleep 1.5 && git pull origin main --allow-unrelated-histories
 ```
 
 rename url
