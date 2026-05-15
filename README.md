@@ -25,6 +25,9 @@ git init && git remote add origin git@github.com:eucalypsih/eucalypsih_rcraps1.g
 git checkout -b main # Switched to a new branch 'main'
 ```
 ```bash
+git branch -m main
+```
+```bash
 git -C $HOME/AndroidCICD add .
 ````
 ```bash
